@@ -1,6 +1,9 @@
 ---
 title: "Week 2 Project"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
 ---
 
 - William "Josh"" Moyer
@@ -144,5 +147,6 @@ TSPlot2<- ggplot(avgWeekdayWeekend, aes(x= interval, y= steps))+
   ylab("Avg Steps")
 print(TSPlot2)
 ```
+
 
 
